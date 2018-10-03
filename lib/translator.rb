@@ -2,6 +2,10 @@
 
 def load_library
   # code goes here
+  library = load_library(file_path)
+  result = library["get_emoticon"][emoticon]
+  if result
+    result
 end
 
 def get_japanese_emoticon
